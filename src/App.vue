@@ -2,14 +2,22 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/addCard">Add Card</router-link>
     </div>
-    <h1>test</h1>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+
+.center-object {
+    margin: auto;
+    width: 20%;
+}
+.center-card {
+    margin: auto;
+    width: 30%;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
